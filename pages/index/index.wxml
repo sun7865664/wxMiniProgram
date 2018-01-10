@@ -13,6 +13,6 @@
 </view> -->
 <view class="container">
   <canvas canvas-id="chess" style="width: 330px; height: 330px;" bindtouchend='luozi'></canvas>
-  <button bindtouchend='load'>再来一局</button>
+  <button bindtouchend='load' class='replay'>再来一局</button>
 </view>
 <!-- <script type="text/javascript" src="js/script.js"></script> -->

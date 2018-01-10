@@ -83,7 +83,7 @@ Page({
     context.arc(15 + i * 22, 15 + j * 22, 9, 0, 2 * Math.PI);
     context.closePath();
 
-    var gradient = context.createCircularGradient(15 + i * 22 , 15 + j * 22, 22)
+    var gradient = context.createCircularGradient(15 + i * 22 , 15 + j * 22, 9);
   
     if (me) {
       gradient.addColorStop(0, "#0A0A0A");
